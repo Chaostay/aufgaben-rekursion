@@ -4,5 +4,8 @@ package strings
 // Liefert das Ergebnis.
 func Chain(s string, n int) string {
 	// TODO
-	return ""
+	if n == 1 {
+		return s
+	}
+	return s + Chain(s, n-1)
 }
