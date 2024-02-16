@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	var list1 []int = list[1,2,3]
-		
-	fmt.Println(list1)
+	//var list1 = []string{"Tschüss"}
+	s1 := []string{"Hallo"}
+
+	fmt.Println(s1[0][1])
 }
